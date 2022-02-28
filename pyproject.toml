@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "notification_proxy"
+version = "0.1.0"
+description = ""
+authors = ["dinesh876 <dineshadventure15@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Flask = "^2.0.3"
+SQLAlchemy = "^1.4.31"
+PyMySQL = "^1.0.2"
+gunicorn = "^20.1.0"
+PyYAML = "^6.0"
+rfc3339 = "^6.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0","setuptools"]
+build-backend = "poetry.core.masonry.api"

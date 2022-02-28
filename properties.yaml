@@ -1,0 +1,6 @@
+DATABASE:
+  USERNAME: dummy
+  PASSWORD: dummy
+  HOST: 127.0.0.1
+  PORT: 3306
+  DB: cdr_database
